@@ -1,0 +1,81 @@
+/******************************************************************************
+“Mercancía segura”
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 230822
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+int main(){
+int peso;
+int km;
+int prioridad;
+int costoPeso;
+int costoKm;
+int costoFinal;
+
+
+//Peso 
+	cout<<"Peso del paquete:"<<endl;
+	cin>>peso;
+	
+	if (peso>100){
+		cout<<"Costo 1000"<<costoPeso<<endl;
+
+}		
+else
+		if (peso>=50){
+			 cout<<"Costo 800"<<costoPeso<<endl;
+}		
+else
+			if (peso>=49){
+				 cout<<"Costo 600"<<costoPeso<<endl;
+				 
+}
+else
+				if (peso>=20){
+					cout<<"Costo 300"<<costoPeso<<endl;
+					
+			cout<<"El costo final de peso del paquete es"<<costoPeso<<endl;			
+//Km
+	cout<<"Distancia por recorrer:"<<endl;
+	cin>>km;
+	
+	if (km>1000){
+		cout<<"Costo 1200"<<costoKm<<endl;
+
+}		
+else
+		if (peso>=700){
+			 cout<<"Costo 950"<<costoKm<<endl;
+}		
+else
+			if (peso>=699){
+				 cout<<"Costo 600"<<costoKm<<endl;
+				  
+}
+else
+				if (peso>=400){
+					cout<<"Costo 550"<<costoKm<<endl;
+					
+	cout<<"El costo final de distancia por recorrer es"<<costoKm<<endl;
+
+	
+//Costo final 
+
+costoFinal=costoPeso + costoKm;		
+
+				if (costoFinal>=500){
+					cout<<"Urgente"<<endl;
+					
+				}
+else
+				if (costoFinal>=150){
+					cout<<"Normal"<<endl;
+					
+	cout<<"El costo final es"<<costoFinal<<endl;
+
+return 0;
+
+}
+}
+}
